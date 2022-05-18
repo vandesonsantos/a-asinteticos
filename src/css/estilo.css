@@ -1,65 +1,87 @@
 @charset "UTF-08";
 
-/* Seletor glogal-reset */
-* {
-    margin: 0;
-    padding: 0;
-}
-
-/* Importação de fontes do google fonts */
+/* Importação de fontes do google font */
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-/* Configurações de variáveis em CSS, cor e fontes */
+/* Configurações de variáveis em CSS */
 :root {
     --cor0: #405952;
     --cor1: #4b7070;
     --cor2: #9c9b7a;
     --cor3: #ff974f;
     --cor4: #ff5a42;
-    --cor-padrao: #ffffff;
 
     --fonte-padrao: Arial, Verdana, Helvetica, Sans-Serif;
     --fonte-destaque: 'Rajdhani', sans-serif;
-    --fonte-titulo: 'Bebas Neue', cursiva;
+    --fonte-titulo: 'Bebas Neue', 'cursive';
+}
+ 
+/* Seletor global para retirar margens */
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-/* Configuração do corpo do site */
+/* Configurações do corpo do site */
 body {
-    font-family: var(--fonte-padrao);
     background-color: var(--cor2);
+    font-family: var(--fonte-padrao);
 }
 
-p {
-    margin:15px;
+body p {
+    margin: 15px;
     text-indent: 40px;
     font-size: 1em;
     line-height: 1.3em;
 }
 
-/* Cabeçalho */
+/* Configurações do cabeçalho */
 .cabecalho {
     background-color: var(--cor0);
     color: var(--cor2);
-    height: 230px;
-    text-align: center;
-    padding-top: 40px;
-    min-height: 160px;
+    font-family: var(--fonte-titulo);
     text-transform: uppercase;
+    text-align: center;
+    padding: 40px;
+    min-height: 160px;
 }
 
 .cabecalho .titulo {
-    
     font-size: 3.4em;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.510);
 }
 
 .cabecalho .destaque {
-
     font-size: 1.2em;
-    max-width: 550px;
     margin: auto;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.37);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.40);
+    max-width: 550px;
 }
+
+
+/* Configurações do menu de navegação */
+.menu {
+    background-color: var(--cor0);
+    height: 35px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.390)
+}
+
+.menu a {
+    color: var(--cor3);
+    font-family: var(--fonte-titulo);
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-size: 1.2em;
+    transition-duration: 3s;
+}
+.menu a:hover {
+    background-color: #4b7070c4;
+}
+
+
+
 

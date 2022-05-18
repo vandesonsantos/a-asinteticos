@@ -9,7 +9,7 @@
 /* Importação de fontes do google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
 
 /* Configurações de variáveis em CSS, cor e fontes */
 :root {
@@ -22,7 +22,7 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, Sans-Serif;
     --fonte-destaque: 'Rajdhani', sans-serif;
-    --fonte-titulo: 'Bebas Neue', 'cursive';
+    --fonte-titulo: 'Bebas Neue', cursiva;
 }
 
 /* Configuração do corpo do site */

@@ -1,0 +1,5 @@
+/* Seletor global para retirar margens */
+* {
+    margin: 0px;
+    padding: 0px;
+}

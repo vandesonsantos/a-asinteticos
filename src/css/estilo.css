@@ -17,12 +17,6 @@
     --fonte-destaque: 'Rajdhani', sans-serif;
     --fonte-titulo: 'Bebas Neue', 'cursive';
 }
- 
-/* Seletor global para retirar margens */
-* {
-    margin: 0px;
-    padding: 0px;
-}
 
 /* Configurações do corpo do site */
 body {
@@ -48,7 +42,7 @@ body p {
     min-height: 160px;
 }
 
-.cabecalho .titulo {
+.cabecalho .titulo-cabecalho {
     font-size: 3.4em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.510);
 }
@@ -76,10 +70,47 @@ body p {
     margin-left: 5px;
     border-radius: 3px;
     font-size: 1.2em;
-    transition-duration: 3s;
+    transition-duration: 2s;
 }
+
 .menu a:hover {
     background-color: #4b7070c4;
+}
+
+/* Configuração do conteúdo do site */
+.conteudo {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.conteudo .titulo-conteudo {
+    font-family: var(--fonte-destaque);
+    color: var(--cor1);
+    font-size: 2.3em;
+    text-indent: 15px;
+}
+
+.conteudo .sub-titulo {
+    font-family: var(--fonte-destaque);
+    color: var(--cor0);
+    font-size: 1.6em;
+    text-indent: 15px;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+}
+
+.conteudo p {
+    text-align: justify;
+}
+
+.conteudo .imagens {
+    width: 100%;
 }
 
 

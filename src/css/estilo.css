@@ -113,6 +113,74 @@ body p {
     width: 100%;
 }
 
+/* Configurações de video do YouTub */
+.conteudo .video {
+    background-color: var(--cor1);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 58%;
+}
 
+.conteudo .video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+/* Configurações do conteúdo periferico aside */
+.periferico h3 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor0);
+    font-size: 1.6em;
+    text-indent: 15px;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+}
+
+.periferico ul {
+    background-color: var(--cor0);
+    margin-top: 0px;
+    line-height: 1.6em;
+    padding: 5px;
+    border-radius: 4px 4px 6px 6px;
+}
+
+.periferico ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.periferico ul li a {
+    font-family: var(--fonte-titulo);
+    font-size: 1.2em;
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+.periferico ul li a:hover {
+    color: var(--cor3);
+}
+
+/* Configuração do Rodapé */
+.rodape {
+    background-color: var(--cor0);
+    color: var(--cor2);
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+.rodape a {
+    color: var(--cor2);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}
 
 
